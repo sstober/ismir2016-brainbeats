@@ -16,9 +16,9 @@ data/:
 
 ** extra: python code to generate the data files from the original OpenMIIR EEG recordings
 Note: 
-To run the experiments (Matlab code) as described in the paper, all data is already provided here. This code is provided additionally in case somebody, for instance, wants to also run the analysis for the other subjects (who listened to some slightly different stimuli, cf. OpenMIIR paper) or use a different EEG pre-processing pipeline. This also requires to download the full OpenMIIR dataset from https://github.com/sstober/openmiir (See also instructions to download the EEG files which are not included in the git repository because of their size!) and install a working python environment with at least Numpy, Theano, Blocks, MNE-Python, matplotlib, logging.
+To run the experiments (Matlab code) as described in the paper, all data are already provided here. This code is provided additionally in case somebody, for instance, wants to also run the analysis for the other subjects (who listened to some slightly different stimuli, cf. OpenMIIR paper) or use a different EEG pre-processing pipeline. This also requires to download the full OpenMIIR dataset from https://github.com/sstober/openmiir (See also instructions to download the EEG files which are not included in the git repository because of their size!) and install a working python environment with at least Numpy, Theano, Blocks, MNE-Python, Matplotlib, Logging.
 
 Included files:
-data_preprocessing_and_export.ipynb - main script, will 
+data_preprocessing_and_export.ipynb - main script
 deepthought/ - part of the deepthought library from http://github.com/sstober/deepthought needed to run the main script
 sce-weights.npy - channel weights for the SCE filter as shown in the paper
